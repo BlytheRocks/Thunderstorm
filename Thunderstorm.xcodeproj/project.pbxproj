@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		4C3A05E21F329045007F0FA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A05E11F329045007F0FA1 /* AppDelegate.swift */; };
 		4C3A05E41F329045007F0FA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A05E31F329045007F0FA1 /* ViewController.swift */; };
-		4C3A05E71F329045007F0FA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3A05E51F329045007F0FA1 /* Main.storyboard */; };
 		4C3A05E91F329045007F0FA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C3A05E81F329045007F0FA1 /* Assets.xcassets */; };
-		4C3A05EC1F329045007F0FA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3A05EA1F329045007F0FA1 /* LaunchScreen.storyboard */; };
 		4C3A05F71F329046007F0FA1 /* ThunderstormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A05F61F329046007F0FA1 /* ThunderstormTests.swift */; };
+		4C3A06051F3296F7007F0FA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3A06041F3296F7007F0FA1 /* Main.storyboard */; };
+		4C3A06071F329710007F0FA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3A06061F329710007F0FA1 /* LaunchScreen.storyboard */; };
+		4CDFC03E1F32BC7D00C11E3E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CDFC03D1F32BC7D00C11E3E /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,13 @@
 		4C3A05DE1F329045007F0FA1 /* Thunderstorm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thunderstorm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C3A05E11F329045007F0FA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C3A05E31F329045007F0FA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4C3A05E61F329045007F0FA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C3A05E81F329045007F0FA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4C3A05EB1F329045007F0FA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4C3A05ED1F329045007F0FA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C3A05F21F329046007F0FA1 /* ThunderstormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThunderstormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C3A05F61F329046007F0FA1 /* ThunderstormTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThunderstormTests.swift; sourceTree = "<group>"; };
 		4C3A05F81F329046007F0FA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3A06041F3296F7007F0FA1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4C3A06061F329710007F0FA1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CDFC03D1F32BC7D00C11E3E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +78,11 @@
 		4C3A05E01F329045007F0FA1 /* Thunderstorm */ = {
 			isa = PBXGroup;
 			children = (
-				4C3A05E11F329045007F0FA1 /* AppDelegate.swift */,
-				4C3A05E31F329045007F0FA1 /* ViewController.swift */,
-				4C3A05E51F329045007F0FA1 /* Main.storyboard */,
-				4C3A05E81F329045007F0FA1 /* Assets.xcassets */,
-				4C3A05EA1F329045007F0FA1 /* LaunchScreen.storyboard */,
-				4C3A05ED1F329045007F0FA1 /* Info.plist */,
+				4C3A06011F3290A5007F0FA1 /* Application Delegate */,
+				4C3A06021F329596007F0FA1 /* View Controllers */,
+				4C3A06031F3295E2007F0FA1 /* Storyboards */,
+				4C3A06081F32974A007F0FA1 /* Resources */,
+				4C3A06091F3297A3007F0FA1 /* Supporting Files */,
 			);
 			path = Thunderstorm;
 			sourceTree = "<group>";
@@ -94,6 +94,47 @@
 				4C3A05F81F329046007F0FA1 /* Info.plist */,
 			);
 			path = ThunderstormTests;
+			sourceTree = "<group>";
+		};
+		4C3A06011F3290A5007F0FA1 /* Application Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				4C3A05E11F329045007F0FA1 /* AppDelegate.swift */,
+			);
+			path = "Application Delegate";
+			sourceTree = "<group>";
+		};
+		4C3A06021F329596007F0FA1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C3A05E31F329045007F0FA1 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		4C3A06031F3295E2007F0FA1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4C3A06041F3296F7007F0FA1 /* Main.storyboard */,
+				4C3A06061F329710007F0FA1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		4C3A06081F32974A007F0FA1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4C3A05E81F329045007F0FA1 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4C3A06091F3297A3007F0FA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CDFC03D1F32BC7D00C11E3E /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +187,7 @@
 				TargetAttributes = {
 					4C3A05DD1F329045007F0FA1 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 49Y7JH29CA;
 						ProvisioningStyle = Automatic;
 					};
 					4C3A05F11F329046007F0FA1 = {
@@ -179,9 +221,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C3A05EC1F329045007F0FA1 /* LaunchScreen.storyboard in Resources */,
+				4CDFC03E1F32BC7D00C11E3E /* Info.plist in Resources */,
+				4C3A06071F329710007F0FA1 /* LaunchScreen.storyboard in Resources */,
 				4C3A05E91F329045007F0FA1 /* Assets.xcassets in Resources */,
-				4C3A05E71F329045007F0FA1 /* Main.storyboard in Resources */,
+				4C3A06051F3296F7007F0FA1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,25 +264,6 @@
 			targetProxy = 4C3A05F31F329046007F0FA1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		4C3A05E51F329045007F0FA1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C3A05E61F329045007F0FA1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4C3A05EA1F329045007F0FA1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C3A05EB1F329045007F0FA1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4C3A05F91F329046007F0FA1 /* Debug */ = {
@@ -339,7 +363,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Thunderstorm/Info.plist;
+				DEVELOPMENT_TEAM = 49Y7JH29CA;
+				INFOPLIST_FILE = "Thunderstorm/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.positronicbliss.Thunderstorm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -351,7 +376,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Thunderstorm/Info.plist;
+				DEVELOPMENT_TEAM = 49Y7JH29CA;
+				INFOPLIST_FILE = "Thunderstorm/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.positronicbliss.Thunderstorm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -406,6 +432,7 @@
 				4C3A05FD1F329046007F0FA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C3A05FE1F329046007F0FA1 /* Build configuration list for PBXNativeTarget "ThunderstormTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +441,7 @@
 				4C3A06001F329046007F0FA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
